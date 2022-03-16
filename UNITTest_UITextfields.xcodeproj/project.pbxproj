@@ -15,6 +15,9 @@
 		DB38023F27E15F3E004F27D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB38023D27E15F3E004F27D8 /* LaunchScreen.storyboard */; };
 		DB38024A27E15F3F004F27D8 /* UNITTest_UITextfieldsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38024927E15F3F004F27D8 /* UNITTest_UITextfieldsTests.swift */; };
 		DB38025527E15F3F004F27D8 /* UNITTest_UITextfieldsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38025427E15F3F004F27D8 /* UNITTest_UITextfieldsUITests.swift */; };
+		DB38026627E163C1004F27D8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38026527E163C1004F27D8 /* SignupViewController.swift */; };
+		DB38026B27E1B50A004F27D8 /* TestingViewControllerNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38026A27E1B50A004F27D8 /* TestingViewControllerNavigation.swift */; };
+		DB38027027E1BD7F004F27D8 /* SpyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38026F27E1BD7F004F27D8 /* SpyNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		DB38025027E15F3F004F27D8 /* UNITTest_UITextfieldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITTest_UITextfieldsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB38025427E15F3F004F27D8 /* UNITTest_UITextfieldsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITTest_UITextfieldsUITests.swift; sourceTree = "<group>"; };
 		DB38025627E15F3F004F27D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB38026527E163C1004F27D8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DB38026A27E1B50A004F27D8 /* TestingViewControllerNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewControllerNavigation.swift; sourceTree = "<group>"; };
+		DB38026F27E1BD7F004F27D8 /* SpyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 				DB38023227E15F3B004F27D8 /* AppDelegate.swift */,
 				DB38023427E15F3B004F27D8 /* SceneDelegate.swift */,
 				DB38023627E15F3B004F27D8 /* ViewController.swift */,
+				DB38026527E163C1004F27D8 /* SignupViewController.swift */,
 				DB38023827E15F3B004F27D8 /* Main.storyboard */,
 				DB38023B27E15F3E004F27D8 /* Assets.xcassets */,
 				DB38023D27E15F3E004F27D8 /* LaunchScreen.storyboard */,
@@ -114,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				DB38024927E15F3F004F27D8 /* UNITTest_UITextfieldsTests.swift */,
+				DB38026A27E1B50A004F27D8 /* TestingViewControllerNavigation.swift */,
+				DB38026F27E1BD7F004F27D8 /* SpyNavigationController.swift */,
 				DB38024B27E15F3F004F27D8 /* Info.plist */,
 			);
 			path = UNITTest_UITextfieldsTests;
@@ -260,6 +269,7 @@
 			files = (
 				DB38023727E15F3B004F27D8 /* ViewController.swift in Sources */,
 				DB38023327E15F3B004F27D8 /* AppDelegate.swift in Sources */,
+				DB38026627E163C1004F27D8 /* SignupViewController.swift in Sources */,
 				DB38023527E15F3B004F27D8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB38024A27E15F3F004F27D8 /* UNITTest_UITextfieldsTests.swift in Sources */,
+				DB38027027E1BD7F004F27D8 /* SpyNavigationController.swift in Sources */,
+				DB38026B27E1B50A004F27D8 /* TestingViewControllerNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
